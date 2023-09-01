@@ -1,6 +1,5 @@
 # Edx_Course_Recommendation
 
-#  Recommender system of edx course data
 
 
 **Content Based Filtering**
@@ -20,14 +19,14 @@ With the availability of so many online courses, it may be take some effort and 
 We can utilise a recommendation system to give some tips on what course the user might like to go though next
 Whilst there are quite a number approaches to recommendation systems, well utilise an approach which requires NLP
 
-1.2 | Recommendation system
+**1.2 | Recommendation system**
 
-GOALS
+**GOALS**
 
 The purpose of our recommendation system is to inform a user about possible courses they make like, based on a course they liked.
 
 
-METHOD
+**METHOD**
 
 We will utilise scrapped course description data (our corpus), well convert each document into vector form using (bow,embeddings), then calculate the consine similarity, from which we will be able to extract courses which are most similar.
 
@@ -40,10 +39,10 @@ What is edX?
 
 edX online courses are self-paced, interactive courses offered by leading universities and organizations around the world. These courses provide learners with a range of topics to explore and learn from, including computer science, business, health, engineering, humanities, and more. With edX courses, learners can gain valuable skills and knowledge in an engaging and convenient way.
 
-Image
 
 
-1.4 | Notebook Goals
+
+**1.4 | Notebook Goals**
 
 Two subgoals are of interest:
 
@@ -53,7 +52,7 @@ Course Recommendation system | Create a course recommendation based on a specifi
 
 
 
-2 | idX DATASET
+**2 | idX DATASET**
 
 WHAT WE WILL DO IN THIS SECTION
 
@@ -64,6 +63,6 @@ Lower the register of column names
 Show for one course the name, about & description
 
 
-# Deployment
+**Deployment**
 
 Also did local deployment.
